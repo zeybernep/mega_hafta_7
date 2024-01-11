@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #ff94b6, #f0a5c6);
+}
+
+div {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    color: #e84393;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 12px;
+    margin-right: 8px;
+    border: 2px solid #e84393;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    width: 60%;
+}
+
+button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #fd79a8;
+    color: #fff;
+    margin-top: 8px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fad4e4;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+li span {
+    flex: 1;
+    text-decoration: none;
+    color: #d63031;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+li button {
+    background-color: #d63031;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    margin-left: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+li button:hover {
+    background-color: #ff7675;
+}
+
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
